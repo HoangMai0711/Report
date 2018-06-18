@@ -19,7 +19,7 @@ namespace Lan_Messenger
         private void butBuzz_Click(object sender, EventArgs e)
         {
             OpenFileDialog fileopen = new OpenFileDialog();
-            fileopen.Title = " Chọn file âm anh";
+            fileopen.Title = " Chọn file âm thanh";
             fileopen.Filter = "Sound Files|*.wav";
             fileopen.InitialDirectory = @"C:\";
             if (fileopen.ShowDialog() == DialogResult.OK)
@@ -29,7 +29,7 @@ namespace Lan_Messenger
         private void butOnoff_Click(object sender, EventArgs e)
         {
             OpenFileDialog fileopen = new OpenFileDialog();
-            fileopen.Title = " Chọn file âm anh";
+            fileopen.Title = " Chọn file âm thanh";
             fileopen.Filter = "Sound Files|*.wav";
             fileopen.InitialDirectory = @"C:\";
             if (fileopen.ShowDialog() == DialogResult.OK)
@@ -40,7 +40,7 @@ namespace Lan_Messenger
         private void btnOff_Click(object sender, EventArgs e)
         {
             OpenFileDialog fileopen = new OpenFileDialog();
-            fileopen.Title = " Chọn file âm anh";
+            fileopen.Title = " Chọn file âm thanh";
             fileopen.Filter = "Sound Files|*.wav";
             fileopen.InitialDirectory = @"C:\";
             if (fileopen.ShowDialog() == DialogResult.OK)
@@ -50,7 +50,7 @@ namespace Lan_Messenger
         private void btMessenger_Click(object sender, EventArgs e)
         {
             OpenFileDialog fileopen = new OpenFileDialog();
-            fileopen.Title = " Chọn file âm anh";
+            fileopen.Title = " Chọn file âm thanh";
             fileopen.Filter = "Sound Files|*.wav";
             fileopen.InitialDirectory = @"C:\";
             if (fileopen.ShowDialog() == DialogResult.OK)
